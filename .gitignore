@@ -1,0 +1,33 @@
+# Ignore object files and libraries
+*.o
+*.a
+*.lib
+
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.sdf
+*.opensdf
+*.user
+*.vcxproj
+*.vcxproj.filters
+*.pdb
+
+# Ignore compiled executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore generated files
+bin/
+build/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
